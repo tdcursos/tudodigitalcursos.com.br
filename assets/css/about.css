@@ -1,0 +1,47 @@
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: left;
+  align-items: center;
+}
+
+.skills-itens {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  border-radius: 10px;
+  transition: transform 1s;
+}
+
+.skills-itens:hover,
+.contacts-social-icons ul li a i:hover {
+  transform: scale(1.2);
+}
+
+.contacts-social-icons ul {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 5rem;
+}
+
+.contacts-social-icons li {
+  list-style-type: none;
+}
+
+.contacts-social-icons ul li a {
+  color: var(--primary-color);
+}
+
+.contacts-social-icons ul li a i {
+  font-size: 5rem;
+  transition: transform 1s;
+}
+
+/* Hide icon donate */
+.contacts-social-icons ul li:last-child {
+  display: none;
+}
